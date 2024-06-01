@@ -35,6 +35,13 @@ class AmharicTokenizer:
         except Exception as e:
             raise ValueError(f"An error occurred while writing Amharic text to file: {e}")
 
+    def train_sentencepiece_model(self):
+       
+        try:
+            spm.SentencePieceTrainer.train(input=self.amharic_text_file, model_prefix=self.model_prefix, vocab_size=self.vocab_size)
+        except Exception as e:
+            raise ValueError(f"An error occurred during SentencePiece model training: {e}")
+
     def tokenize(self, amharic_text):
        
         try:
