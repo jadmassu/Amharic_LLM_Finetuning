@@ -27,24 +27,12 @@ The lack of extensive, high-quality text/audio datasets for Amharic is a signifi
 - Nyamusi Moraa
 - Eyerusalem Admassu
 
-## Tech Stack
-
-- **Programming Languages:** Python, JavaScript (React)
-- **Web Scraping Tools:** Selenium
-- **Database:** PostgreSQL
-- **API Frameworks:** Flask
-- **Containerization:** Docker, Docker Compose
-- **Workflow Automation:** Apache Airflow
-- **Annotation Tool:** Prodigy
-- **Monitoring:** Grafana
-
 ## Setup Instructions
 
 ### Prerequisites
 
 - Python 3.x
-- Docker and Docker Compose
-- PostgreSQL or MongoDB (for local development)
+
 
 ### Installation
 
